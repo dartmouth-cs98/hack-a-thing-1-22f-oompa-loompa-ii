@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		293583DA28D6061900B6FE4F /* BorrowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293583D928D6061900B6FE4F /* BorrowerView.swift */; };
+		2953911228D3B892007D2035 /* LenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953911128D3B892007D2035 /* LenderView.swift */; };
+		2975B6B728D282AF009723F5 /* OompaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2975B6B628D282AF009723F5 /* OompaApp.swift */; };
+		2975B6B928D282AF009723F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2975B6B828D282AF009723F5 /* ContentView.swift */; };
+		2975B6BB28D282B0009723F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2975B6BA28D282B0009723F5 /* Assets.xcassets */; };
+		2975B6BE28D282B0009723F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2975B6BD28D282B0009723F5 /* Preview Assets.xcassets */; };
+		2975B6C028D282B0009723F5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2975B6BF28D282B0009723F5 /* Persistence.swift */; };
+		2975B6C328D282B0009723F5 /* Oompa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2975B6C128D282B0009723F5 /* Oompa.xcdatamodeld */; };
+		2975B6CD28D282B0009723F5 /* OompaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2975B6CC28D282B0009723F5 /* OompaTests.swift */; };
+		2975B6D728D282B0009723F5 /* OompaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2975B6D628D282B0009723F5 /* OompaUITests.swift */; };
+		2975B6D928D282B0009723F5 /* OompaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2975B6D828D282B0009723F5 /* OompaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2975B6C928D282B0009723F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2975B6AB28D282AF009723F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2975B6B228D282AF009723F5;
+			remoteInfo = Oompa;
+		};
+		2975B6D328D282B0009723F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2975B6AB28D282AF009723F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2975B6B228D282AF009723F5;
+			remoteInfo = Oompa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		293583D928D6061900B6FE4F /* BorrowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorrowerView.swift; sourceTree = "<group>"; };
+		2953911128D3B892007D2035 /* LenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenderView.swift; sourceTree = "<group>"; };
+		2975B6B328D282AF009723F5 /* Oompa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oompa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2975B6B628D282AF009723F5 /* OompaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OompaApp.swift; sourceTree = "<group>"; };
+		2975B6B828D282AF009723F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2975B6BA28D282B0009723F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2975B6BD28D282B0009723F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2975B6BF28D282B0009723F5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2975B6C228D282B0009723F5 /* Oompa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Oompa.xcdatamodel; sourceTree = "<group>"; };
+		2975B6C828D282B0009723F5 /* OompaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OompaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2975B6CC28D282B0009723F5 /* OompaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OompaTests.swift; sourceTree = "<group>"; };
+		2975B6D228D282B0009723F5 /* OompaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OompaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2975B6D628D282B0009723F5 /* OompaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OompaUITests.swift; sourceTree = "<group>"; };
+		2975B6D828D282B0009723F5 /* OompaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OompaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2975B6B028D282AF009723F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2975B6C528D282B0009723F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2975B6CF28D282B0009723F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2975B6AA28D282AF009723F5 = {
+			isa = PBXGroup;
+			children = (
+				2975B6B528D282AF009723F5 /* Oompa */,
+				2975B6CB28D282B0009723F5 /* OompaTests */,
+				2975B6D528D282B0009723F5 /* OompaUITests */,
+				2975B6B428D282AF009723F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2975B6B428D282AF009723F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2975B6B328D282AF009723F5 /* Oompa.app */,
+				2975B6C828D282B0009723F5 /* OompaTests.xctest */,
+				2975B6D228D282B0009723F5 /* OompaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2975B6B528D282AF009723F5 /* Oompa */ = {
+			isa = PBXGroup;
+			children = (
+				2994548628D3B5CE00807FF7 /* Views */,
+				2975B6B628D282AF009723F5 /* OompaApp.swift */,
+				2975B6BA28D282B0009723F5 /* Assets.xcassets */,
+				2975B6BF28D282B0009723F5 /* Persistence.swift */,
+				2975B6C128D282B0009723F5 /* Oompa.xcdatamodeld */,
+				2975B6BC28D282B0009723F5 /* Preview Content */,
+			);
+			path = Oompa;
+			sourceTree = "<group>";
+		};
+		2975B6BC28D282B0009723F5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2975B6BD28D282B0009723F5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2975B6CB28D282B0009723F5 /* OompaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2975B6CC28D282B0009723F5 /* OompaTests.swift */,
+			);
+			path = OompaTests;
+			sourceTree = "<group>";
+		};
+		2975B6D528D282B0009723F5 /* OompaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2975B6D628D282B0009723F5 /* OompaUITests.swift */,
+				2975B6D828D282B0009723F5 /* OompaUITestsLaunchTests.swift */,
+			);
+			path = OompaUITests;
+			sourceTree = "<group>";
+		};
+		2994548628D3B5CE00807FF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2975B6B828D282AF009723F5 /* ContentView.swift */,
+				2953911128D3B892007D2035 /* LenderView.swift */,
+				293583D928D6061900B6FE4F /* BorrowerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2975B6B228D282AF009723F5 /* Oompa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2975B6DC28D282B0009723F5 /* Build configuration list for PBXNativeTarget "Oompa" */;
+			buildPhases = (
+				2975B6AF28D282AF009723F5 /* Sources */,
+				2975B6B028D282AF009723F5 /* Frameworks */,
+				2975B6B128D282AF009723F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oompa;
+			productName = Oompa;
+			productReference = 2975B6B328D282AF009723F5 /* Oompa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2975B6C728D282B0009723F5 /* OompaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2975B6DF28D282B0009723F5 /* Build configuration list for PBXNativeTarget "OompaTests" */;
+			buildPhases = (
+				2975B6C428D282B0009723F5 /* Sources */,
+				2975B6C528D282B0009723F5 /* Frameworks */,
+				2975B6C628D282B0009723F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2975B6CA28D282B0009723F5 /* PBXTargetDependency */,
+			);
+			name = OompaTests;
+			productName = OompaTests;
+			productReference = 2975B6C828D282B0009723F5 /* OompaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2975B6D128D282B0009723F5 /* OompaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2975B6E228D282B0009723F5 /* Build configuration list for PBXNativeTarget "OompaUITests" */;
+			buildPhases = (
+				2975B6CE28D282B0009723F5 /* Sources */,
+				2975B6CF28D282B0009723F5 /* Frameworks */,
+				2975B6D028D282B0009723F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2975B6D428D282B0009723F5 /* PBXTargetDependency */,
+			);
+			name = OompaUITests;
+			productName = OompaUITests;
+			productReference = 2975B6D228D282B0009723F5 /* OompaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2975B6AB28D282AF009723F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2975B6B228D282AF009723F5 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					2975B6C728D282B0009723F5 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 2975B6B228D282AF009723F5;
+					};
+					2975B6D128D282B0009723F5 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 2975B6B228D282AF009723F5;
+					};
+				};
+			};
+			buildConfigurationList = 2975B6AE28D282AF009723F5 /* Build configuration list for PBXProject "Oompa" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2975B6AA28D282AF009723F5;
+			productRefGroup = 2975B6B428D282AF009723F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2975B6B228D282AF009723F5 /* Oompa */,
+				2975B6C728D282B0009723F5 /* OompaTests */,
+				2975B6D128D282B0009723F5 /* OompaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2975B6B128D282AF009723F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2975B6BE28D282B0009723F5 /* Preview Assets.xcassets in Resources */,
+				2975B6BB28D282B0009723F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2975B6C628D282B0009723F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2975B6D028D282B0009723F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2975B6AF28D282AF009723F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293583DA28D6061900B6FE4F /* BorrowerView.swift in Sources */,
+				2975B6C028D282B0009723F5 /* Persistence.swift in Sources */,
+				2975B6B928D282AF009723F5 /* ContentView.swift in Sources */,
+				2953911228D3B892007D2035 /* LenderView.swift in Sources */,
+				2975B6C328D282B0009723F5 /* Oompa.xcdatamodeld in Sources */,
+				2975B6B728D282AF009723F5 /* OompaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2975B6C428D282B0009723F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2975B6CD28D282B0009723F5 /* OompaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2975B6CE28D282B0009723F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2975B6D728D282B0009723F5 /* OompaUITests.swift in Sources */,
+				2975B6D928D282B0009723F5 /* OompaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2975B6CA28D282B0009723F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2975B6B228D282AF009723F5 /* Oompa */;
+			targetProxy = 2975B6C928D282B0009723F5 /* PBXContainerItemProxy */;
+		};
+		2975B6D428D282B0009723F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2975B6B228D282AF009723F5 /* Oompa */;
+			targetProxy = 2975B6D328D282B0009723F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2975B6DA28D282B0009723F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2975B6DB28D282B0009723F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2975B6DD28D282B0009723F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Oompa/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bc.Oompa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2975B6DE28D282B0009723F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Oompa/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bc.Oompa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2975B6E028D282B0009723F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bc.OompaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oompa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Oompa";
+			};
+			name = Debug;
+		};
+		2975B6E128D282B0009723F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bc.OompaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oompa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Oompa";
+			};
+			name = Release;
+		};
+		2975B6E328D282B0009723F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bc.OompaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Oompa;
+			};
+			name = Debug;
+		};
+		2975B6E428D282B0009723F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bc.OompaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Oompa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2975B6AE28D282AF009723F5 /* Build configuration list for PBXProject "Oompa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2975B6DA28D282B0009723F5 /* Debug */,
+				2975B6DB28D282B0009723F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2975B6DC28D282B0009723F5 /* Build configuration list for PBXNativeTarget "Oompa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2975B6DD28D282B0009723F5 /* Debug */,
+				2975B6DE28D282B0009723F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2975B6DF28D282B0009723F5 /* Build configuration list for PBXNativeTarget "OompaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2975B6E028D282B0009723F5 /* Debug */,
+				2975B6E128D282B0009723F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2975B6E228D282B0009723F5 /* Build configuration list for PBXNativeTarget "OompaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2975B6E328D282B0009723F5 /* Debug */,
+				2975B6E428D282B0009723F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2975B6C128D282B0009723F5 /* Oompa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2975B6C228D282B0009723F5 /* Oompa.xcdatamodel */,
+			);
+			currentVersion = 2975B6C228D282B0009723F5 /* Oompa.xcdatamodel */;
+			path = Oompa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2975B6AB28D282AF009723F5 /* Project object */;
+}

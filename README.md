@@ -5,6 +5,10 @@
 
 I came up with an idea to potentially pursue as my project for the class and tried to build some of its components. In basic terms, the app will allow people to lend to and borrow from peers. Lenders will enter the amount of money they want to loan and the interest rate they want to loan at and borrowers will enter a range of amount of money they'd like to borrow. Using mathematical optimization, the app will find the most optimal allocation of these loans to borrowers. At this step, I was able to make a very basic frontend using SwiftUI and modeling of the optimization using CPLEX.
 
+Formulation of the MIQP model can be seen below:
+![Model](images/micqp_model.jpg)
+Basic Python implementation of this model using CPLEX can be found in loan_matching.py
+
 Figma Link: https://www.figma.com/file/yfLgd7Y2kLOwQVhwYFqwzp/Untitled?node-id=0%3A1
 ![Borrower View](images/borrower_view.png)
 ![Lender View](images/lender_view.png)
